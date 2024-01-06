@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Personal Portfolio webpage</title>
+    <link rel="stylesheet" href="styl.css">
+    <script src="https://kit.fontawesome.com/ca82442768.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/L3.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <h1>Hello, I'm <span>Likitha</span><br> A student enrolled at RV University.</h1>
+        </div>
+    </div>
+   </div>
+   <!------------about-------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/img2.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>An ambitious engineering student is currently delving into the realms of web development, focusing on mastering HTML, CSS, and JavaScript. This enthusiastic learner is dedicated to honing her skills in creating visually appealing and seamlessly functional websites. From structuring content with HTML to refining layouts with CSS and adding dynamic elements with JavaScript, she navigates the complexities of these languages with a curious and determined mindset. Through late-night coding sessions and hands-on projects, she strives to build a solid foundation in web development, envisioning a future where her expertise contributes to innovative and user-friendly digital solutions.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing web/app interfaces</li>
+                        <li><span>Web development</span><br>Web app development</li>
+                        <li><span>App development</span><br>Building Android/iOS apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021-current</span><br>UI/UX Design Training at ET</li>
+                        <li><span>2019-2021</span><br>Team lead at StarApp LLC.</li>
+                        <li><span>2017-2019</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+                        <li><span>2016-2017</span><br>Internship at ekart eCommerce.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2016</span><br>UI/UX Design Training at ET Institute</li>
+                        <li><span>2016</span><br>MBA from MIT Bangalore.</li>
+                        <li><span>2014</span><br>BBA from ISM Banglore.</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------services--------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+               <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>A web design service is a professional offering that specializes in creating and optimizing websites to meet the specific needs and goals of individuals, businesses, or organizations. These services typically encompass a range of activities, including graphic design, user experience (UX) design, and front-end development. Web design services aim to enhance the visual appeal, functionality, and overall user satisfaction of a website.</p>
+               <a href="#">Learn more</a>
+            </div> 
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX</h2>
+                <p>A web design service is a professional offering that specializes in creating and optimizing websites to meet the specific needs and goals of individuals, businesses, or organizations. These services typically encompass a range of activities, including graphic design, user experience (UX) design, and front-end development. Web design services aim to enhance the visual appeal, functionality, and overall user satisfaction of a website.</p>
+               <a href="#">Learn more</a>
+            </div> 
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>A web design service is a professional offering that specializes in creating and optimizing websites to meet the specific needs and goals of individuals, businesses, or organizations. These services typically encompass a range of activities, including graphic design, user experience (UX) design, and front-end development. Web design services aim to enhance the visual appeal, functionality, and overall user satisfaction of a website.</p>
+               <a href="#">Learn more</a>
+            </div> 
+            </div>
+        </div>
+    </div>
+    <!--------portfolio----->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social MEdia App</h3>
+                        <p>In web design for a social media app, the focus is on creating an intuitive and visually appealing interface that encourages user engagement, while also prioritizing responsive design to ensure a seamless experience across various devices.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>In web design for a music app, the emphasis lies on crafting a user-friendly interface for seamless navigation through playlists, genres, and features, complemented by visually appealing elements to enhance the overall music discovery experience.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>In web design for an online shopping app, the goal is to create an intuitive and secure e-commerce platform, prioritizing user-friendly navigation and visually appealing product displays to enhance the overall shopping experience.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!--------contact------>
+    <div id="contact">
+        <div class="container">
+            <div class="contact">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> likithac66@email.com</p>
+                <p><i class="fa-solid fa-phone"></i> 9535768728</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classlist.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classlist.remove("active-tab");
+        }
+        event.currentTarget.classlist.add("active-link");
+        document.getElementById(tabname).classlist.add("active-tab");
+    }
+
+</script>
+
+
+
+</body>
+</html>
